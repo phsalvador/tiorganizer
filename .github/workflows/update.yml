@@ -1,0 +1,29 @@
+name: Atualizar Contador Diário
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Corre à meia-noite
+  workflow_dispatch: # Permite correr manualmente para testar
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Executar script
+        run: python update_counter.py
+        
+      - name: Commit das alterações
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Atualização diária do contador: $(date)"
+          git push
