@@ -10,4 +10,4 @@
 **Regras do Desafio:**
 - Armário Organizado.
 - Mesa de trabalho limpa.
-- Todos equipamentos indentificados.
+- Todos equipamentos identificados.
