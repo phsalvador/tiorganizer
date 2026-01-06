@@ -1,3 +1,6 @@
+permissions:
+  contents: write
+  pull-requests: write # Opcional, se o bot precisar criar/aprovar PRs
 name: Atualizar Contador Diário
 
 on:
