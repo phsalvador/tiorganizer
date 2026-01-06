@@ -1,7 +1,7 @@
 import datetime
 
 # Define a data em que começaste (Ano, Mês, Dia)
-DATA_INICIO = datetime.date(2026, 1, 1) 
+DATA_INICIO = datetime.date(2026, 1, 6) 
 hoje = datetime.date.today()
 dias_sem_bagunca = (hoje - DATA_INICIO).days
 
@@ -17,10 +17,11 @@ readme_content = f"""
 
 ---
 **Regras do Desafio:**
-- Cama feita ao acordar.
+- Armário Organizado.
 - Mesa de trabalho limpa.
-- Sem loiça acumulada.
+- Todos equipamentos indentificados.
 """
 
 with open("README.md", "w", encoding="utf-8") as f:
+
     f.write(readme_content)
