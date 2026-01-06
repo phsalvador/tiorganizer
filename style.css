@@ -9,3 +9,28 @@
             height: 100vh;
             margin: 0;
         }
+
+        .container {
+            text-align: center;
+            border: 1px solid #30363d;
+            padding: 2rem;
+            border-radius: 10px;
+            background-color: #161b22;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        h1 { color: #58a6ff; margin-bottom: 0.5rem; }
+        
+        .contador {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #3fb950; /* Verde */
+            margin: 1rem 0;
+        }
+
+        .regras {
+            text-align: left;
+            display: inline-block;
+            margin-top: 1rem;
+            color: #8b949e;
+        }
