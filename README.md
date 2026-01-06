@@ -2,14 +2,14 @@
 # 🛡️ Painel de Disciplina: Operação Sem Bagunça
 
 ![Status](https://img.shields.io/badge/Status-Ativo-brightgreen)
-![Dias](https://img.shields.io/badge/Dias%20Sem%20Bagunça-5-blue?style=for-the-badge)
+![Dias](https://img.shields.io/badge/Dias%20Sem%20Bagunça-0-blue?style=for-the-badge)
 
-## 📊 Contador Atual: 5 dias
+## 📊 Contador Atual: 0 dias
 
 *“A organização é o caminho para a clareza mental.”*
 
 ---
 **Regras do Desafio:**
-- Cama feita ao acordar.
+- Armário Organizado.
 - Mesa de trabalho limpa.
-- Sem loiça acumulada.
+- Todos equipamentos indentificados.
