@@ -19,9 +19,10 @@ readme_content = f"""
 **Regras do Desafio:**
 - Armário Organizado.
 - Mesa de trabalho limpa.
-- Todos equipamentos indentificados.
+- Todos equipamentos identificados.
 """
 
 with open("README.md", "w", encoding="utf-8") as f:
 
     f.write(readme_content)
+
